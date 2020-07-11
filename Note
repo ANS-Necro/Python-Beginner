@@ -1,0 +1,13 @@
+#Please not that in the Fizz-Buzz program, the error that has been shown is due to the fact that I have initialized a list 'l' outside of the code block.
+#Initialize the list inside it, and we are good to go!
+
+l = range (1,101) #initialize here
+for i in l:
+    if i%3==0 and i%5==0:
+        print 'FizzBuzz'
+    elif i%3==0:
+        print 'Fizz'
+    elif i%5==0:
+        print 'Buzz'
+    else:
+        print i
